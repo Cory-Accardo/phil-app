@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  </head>
+  <header>
+    <p>Simulator</p>
+    <p>About</p>
+  </header>
+  <body>
+    <h1>Bouncy Ball Determinism Simulator</h1>
+      <div id="form_div">
+        <p>Source: </p>
+        <select name="source_select" id="source_input" onchange="onSelect()">
+          <option value="determined">Determined</option>
+          <option value="quantum">Quantum</option>
+        </select>
+        <p class="determined">Color: </p>
+        <input id ="color_input" type="color" value="#009900">
+        <p class="determined">Speed: </p>
+        <input id = "speed_input" type ="number">
+        <p class="determined">Direction: </p>
+        <input id = "direction_input" type ="number">
+        <button id="ball_button" onclick="buttonOnClick()">Create Ball</button>
+      </div>
+    </div>
+    <canvas id="board">Please use a modern browser, like chrome</canvas>
+  </body>
+  <script src="index.js" type="text/javascript"></script>
+</html>
