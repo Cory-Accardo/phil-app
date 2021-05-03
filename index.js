@@ -98,7 +98,7 @@ class Ball {
 
 
 const updateRender = () =>{
-    drawRect(0, 0, canvas.width, canvas.height, "#000");
+    drawRect(0, 0, canvas.width, canvas.height, "#0c0c0c2c");
     Ball.instances.forEach(ball => {
         ball.moveBall();
         ball.drawBall();
