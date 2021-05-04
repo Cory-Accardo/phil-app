@@ -53,7 +53,7 @@ class Ball {
         this.r = r;
         this.dir = dir;
         this.color = color;
-        this.speed = speed;
+        this.speed = speed + 1;
         this.id = Ball.instances.length;
         Ball.instances.push(this);
     }
